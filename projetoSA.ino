@@ -5,7 +5,7 @@
 DHT11 dht11(2); // Instanciando um objeto DHT11 conectado no pino digital 2
 
 /*DECLARAÇÃO DE VARIÁVEIS*/
-const int COOLER_PIN = 8; // Pino do cooler
+const int COOLER_PIN = 6; // Pino do cooler
 int TEMP_LIMITE = 30; // Temperatura limite para ligar o cooler
 
 void setup() {
